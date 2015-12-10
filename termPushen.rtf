@@ -1,0 +1,61 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf130
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red180\green36\blue25;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf0 \CocoaLigature0 Darshans-iMac:~ heideroseborrek$ cd\
+Darshans-iMac:~ heideroseborrek$ cd Desktop\
+Darshans-iMac:Desktop heideroseborrek$ mkdir borrekRepo\
+Darshans-iMac:Desktop heideroseborrek$ cd borrekRepo\
+Darshans-iMac:borrekRepo heideroseborrek$ git init\
+Initialized empty Git repository in /Users/heideroseborrek/Desktop/borrekRepo/.git/\
+Darshans-iMac:borrekRepo heideroseborrek$ dir README.rdoc\
+-bash: dir: command not found\
+Darshans-iMac:borrekRepo heideroseborrek$ touch README.rdoc\
+Darshans-iMac:borrekRepo heideroseborrek$ git status\
+On branch master\
+\
+Initial commit\
+\
+Untracked files:\
+  (use "git add <file>..." to include in what will be committed)\
+\
+	\cf2 README.rdoc\cf0 \
+	\cf2 textREADME.rtf\cf0 \
+\
+nothing added to commit but untracked files present (use "git add" to track)\
+Darshans-iMac:borrekRepo heideroseborrek$ git .add\
+git: '.add' is not a git command. See 'git --help'.\
+\
+Did you mean this?\
+	add\
+Darshans-iMac:borrekRepo heideroseborrek$ git add --all\
+Darshans-iMac:borrekRepo heideroseborrek$ git commit -m "first commit"\
+[master (root-commit) e73e8f8] first commit\
+ Committer: Heiderose Borrek <heideroseborrek@Darshans-iMac.local>\
+Your name and email address were configured automatically based\
+on your username and hostname. Please check that they are accurate.\
+You can suppress this message by setting them explicitly:\
+\
+    git config --global user.name "Your Name"\
+    git config --global user.email you@example.com\
+\
+After doing this, you may fix the identity used for this commit with:\
+\
+    git commit --amend --reset-author\
+\
+ 3 files changed, 14 insertions(+)\
+ create mode 100644 README.rdoc\
+ create mode 100644 sachen.rtf\
+ create mode 100644 textREADME.rtf\
+Darshans-iMac:borrekRepo heideroseborrek$ git remote add origin https://github.com/HBorrek/borrekRepo.git\
+Darshans-iMac:borrekRepo heideroseborrek$ git push -u origin master\
+Counting objects: 5, done.\
+Delta compression using up to 8 threads.\
+Compressing objects: 100% (4/4), done.\
+Writing objects: 100% (5/5), 601 bytes | 0 bytes/s, done.\
+Total 5 (delta 1), reused 0 (delta 0)\
+To https://github.com/HBorrek/borrekRepo.git\
+ * [new branch]      master -> master\
+Branch master set up to track remote branch master from origin.}
